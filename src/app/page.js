@@ -39,7 +39,7 @@ export default function Home() {
   return (
     <>
       {!success && (
-        <div className="md:bg-slate-900 md:flex md:items-center md:justify-center md:h-screen">
+        <div className="md:bg-my_Charcoal_Grey md:flex md:items-center md:justify-center md:h-screen">
           <section className="bg-white md:w-[700px] lg:w-[900px] md:flex md:flex-row-reverse md:items-center md:rounded-2xl md:p-8 md:gap-8">
             <div className="md:hidden">
               <Image src={mobile} alt="Newsletter" height={250} width={768} />
