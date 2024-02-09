@@ -24,13 +24,12 @@ export default function Success({ email, setSuccess }) {
               subscription.
             </p>
           </div>
-
           <button
             onClick={() => setSuccess(false)}
             style={{
               backgroundColor: "hsl(234, 29%, 20%)",
             }}
-            className="py-3 p-x4 w-full text-white font-bold hover:bg-gradient-to-r hover:from-pink-500 hover:to-orange-400 rounded-lg"
+            className="py-3 px-4 w-full text-white font-bold hover:bg-gradient-to-r hover:from-pink-500 hover:to-orange-400 rounded-lg hover:drop-shadow-2xl"
           >
             Dismiss message
           </button>
